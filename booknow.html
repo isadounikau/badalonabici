@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Urban Cycle Rentals</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="bookNow.css">
+</head>
+<body>
+<div class="header">            <!--Header div-->
+    <div class="innerheader">
+        <div class="logo">
+            <a href="index.html"><img src="images/UrbanCycleRentalsLogo.png" alt="Urban Cycle Rentals Logo"></a>
+        </div>
+        <ul class="navigationlinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="rentalbicycles.html">Rental Bicycles</a></li>
+            <li style="border-bottom: 5px solid hsl(31, 100%, 55%)"><a href="booknow.html">Book Now</a></li>
+            <li><a href="contactUs.html">Contact us</a></li>
+        </ul>
+
+        <!--test colapsed menu -->
+        <div class="colapsedmenu">
+            <form action="images/FAQ.jpeg" method="GET"><input type="button" name="MyButton" value="menu"></form>
+        </div>
+        <!--test colapsed menu -->
+    </div>
+</div>
+<div class="bannerimage">
+    <img src="images/Booknow.jpeg" alt="">
+</div>
+
+
+<div class="content">           <!--Content div-->
+    <div class="innercontent">
+
+        <div class="heading"><h1>Book Now</h1></div>
+        <div class="booknowcontent">
+            <div class="form" style="margin: 20px; text-align: left;">
+                <form action="checkout.html" method="GET">
+                    <div>
+                        <label for="location">1- Pickup Location*:</label>
+                        <select name="Location" id="location" required class="selectbox">
+                            <option value="">select location</option>
+                            <option value="stratford university">stratford university</option>
+                            <option value="stratford accomodation">stratford accomodation</option>
+                            <option value="main office">main office</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="date">2- Date and Time*:</label>
+                        <input class="selectbox" type="date" name="Date" id="date" min="2021-04-24" required>
+                        <input class="selectbox" type="time" name="Time" id="time" required>
+                    </div>
+                    <div>
+                        <label for="duration">3- Duration*:</label>
+                        <select class="selectbox" name="Duration" id="duration" required>
+                            <option value="">select duration</option>
+                            <option value="1h">1h</option>
+                            <option value="3h">3h</option>
+                            <option value="24h">24h</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="bicycle">4- Select Bicycle*:</label>
+                        <select class="selectbox" name="Bicycle" id="bicycle" required>
+                            <option value="">select bicycle</option>
+                            <option value="Electric bicycle">Electric bicycle</option>
+                            <option value="Sport bicycle">Sport bicycle</option>
+                            <option value="Casual bicycle">Casual bicycle</option>
+                            <option value="Foldable bicycle">Foldable bicycle</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="name">5- Your name*:</label>
+                        <input class="selectbox" type="text" name="Name" id="name" required>
+
+                    </div>
+                    <div>
+                        <label for="email">Your Email*:</label>
+                        <input class="selectbox" type="email" name="Email" id="email" required>
+                    </div>
+                    <div>
+                        <label for="Address">6- Your Address*:</label>
+                        <input class="selectbox" type="text" name="Address" id="Address" required>
+                    </div>
+                    <div>
+                        <label for="Phone">7- Your Phone*:</label>
+                        <input class="selectbox" type="tel" name="Phone" id="Phone" required>
+                    </div>
+                    <div>
+                        <input class="button" type="submit" value="continue to checkout">
+                        <input class="button" type="reset">
+                    </div>
+                </form>
+            </div>
+
+            <div class="table">
+
+
+                <div class="stickyth">
+                    <table class="tableContent">
+                        <thead>
+                        <tr>
+                            <th style="width: 356px;">Bicycles</th>
+                            <th style="width: 73px;">Duration</th>
+                            <th style="width: 73px;">Price</th>
+                            <th style="width: 78px;">Insurance</th>
+                        </tr>
+                        </thead>
+                    </table>
+                </div>
+                <table class="tableContent" style="margin-bottom: 25px;">
+                    <tbody>
+                    <tr> <!--Bicycle 1 -->
+                        <td> <!--Bicycles -->
+                            <table>
+                                <tr>
+                                    <td><h2>Electric bicycle</h2></td>
+                                </tr>
+                                <tr>
+                                    <td><img src="images/bicycle1electric.jpeg" alt="Electric Bicycle"></td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td> <!--Duration -->
+                            <table>
+                                <tr>
+                                    <td>1h</td>
+                                </tr>
+                                <tr>
+                                    <td>3h</td>
+                                </tr>
+                                <tr>
+                                    <td>24h</td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td> <!--Price -->
+                            <table>
+                                <tr>
+                                    <td>8£</td>
+                                </tr>
+                                <tr>
+                                    <td>14£</td>
+                                </tr>
+                                <tr>
+                                    <td>25£</td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td> <!--Insurance -->
+                            <table>
+                                <tr>
+                                    <td>8£</td>
+                                </tr>
+                                <tr>
+                                    <td>8£</td>
+                                </tr>
+                                <tr>
+                                    <td>15£h</td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr> <!--Bicycle 2-->
+                        <td> <!--Bicycles -->
+                            <table>
+                                <tr>
+                                    <td><h2>Sport bicycle</h2></td>
+                                </tr>
+                                <tr>
+                                    <td><img src="images/bicycle2sport.jpeg" alt="Sport Bicycle"></td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td> <!--Duration -->
+                            <table>
+                                <tr>
+                                    <td>1h</td>
+                                </tr>
+                                <tr>
+                                    <td>3h</td>
+                                </tr>
+                                <tr>
+                                    <td>24h</td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td> <!--Price -->
+                            <table> <!--Price -->
+                                <tr>
+                                    <td>7£</td>
+                                </tr>
+                                <tr>
+                                    <td>13£</td>
+                                </tr>
+                                <tr>
+                                    <td>22£</td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td> <!--Insurance -->
+                            <table>
+                                <tr>
+                                    <td>8£</td>
+                                </tr>
+                                <tr>
+                                    <td>8£</td>
+                                </tr>
+                                <tr>
+                                    <td>15£</td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr> <!--Bicycle 3-->
+                        <td> <!--Bicycles -->
+                            <table>
+                                <tr>
+                                    <td><h2>Casual bicycle</h2></td>
+                                </tr>
+                                <tr>
+                                    <td><img src="images/bicycle3casual.jpeg" alt="Casual Bicycle"></td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td> <!--Duration -->
+                            <table>
+                                <tr>
+                                    <td>1h</td>
+                                </tr>
+                                <tr>
+                                    <td>3h</td>
+                                </tr>
+                                <tr>
+                                    <td>24h</td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td> <!--Price -->
+                            <table> <!--Price -->
+                                <tr>
+                                    <td>2.5£</td>
+                                </tr>
+                                <tr>
+                                    <td>5£</td>
+                                </tr>
+                                <tr>
+                                    <td>10£h</td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td> <!--Insurance -->
+                            <table>
+                                <tr>
+                                    <td>4£</td>
+                                </tr>
+                                <tr>
+                                    <td>4£</td>
+                                </tr>
+                                <tr>
+                                    <td>8£</td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr> <!--Bicycle 4-->
+                        <td> <!--Bicycles -->
+                            <table>
+                                <tr>
+                                    <td><h2>Foldable bicycle</h2></td>
+                                </tr>
+                                <tr>
+                                    <td><img src="images/bicycle4foldable.jpeg" alt="Foldable bicycle"></td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td> <!--Duration -->
+                            <table>
+                                <tr>
+                                    <td>1h</td>
+                                </tr>
+                                <tr>
+                                    <td>3h</td>
+                                </tr>
+                                <tr>
+                                    <td>24h</td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td> <!--Price -->
+                            <table> <!--Price -->
+                                <tr>
+                                    <td>3£</td>
+                                </tr>
+                                <tr>
+                                    <td>6£</td>
+                                </tr>
+                                <tr>
+                                    <td>11£</td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td> <!--Insurance -->
+                            <table>
+                                <tr>
+                                    <td>4£</td>
+                                </tr>
+                                <tr>
+                                    <td>4£</td>
+                                </tr>
+                                <tr>
+                                    <td>8£</td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+
+
+        </div>
+
+    </div>
+</div>
+
+
+<div class="footer">                 <!--footer div-->
+    <div class="innerfooter">
+        <div class="footerlinks">
+            <ul>
+                <li><a href="privacypolicy.html">Privacy policy</a></li>
+                <li><a href="contactUs.html">Contact us</a></li>
+                <li><a href="aboutUs.html">About us</a></li>
+                <li><a href="FAQ.html">FAQ</a></li>
+            </ul>
+        </div>
+        <div class="subscription">
+            <div>
+                <h2>subcribe to our newsletter</h2>
+                <p>Be the first to hear about news, events and discounts</p>
+                <div class="subscriptionbar">
+                    <form onsubmit="return ClickMessage()">
+                        <input class="selectbox" type="email" placeholder="Your E-mail" required>
+                        <input class="button1" type="submit" name="MyButton" value="Subscribe">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="socialmedia">
+            <div class="social">
+                <h2>Follow Us</h2>
+                <div class="socialmediaicons">
+                    <a href="https://www.facebook.com/"><img src="images/Facebookiconwhite.png" alt="facebook Icon"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

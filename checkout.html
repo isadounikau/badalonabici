@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Urban Cycle Rentals</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="header">            <!--Header div-->
+    <div class="innerheader">
+        <div class="logo">
+            <a href="index.html"><img src="images/UrbanCycleRentalsLogo.png" alt="Urban Cycle Rentals Logo"></a>
+        </div>
+        <ul class="navigationlinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="rentalbicycles.html">Rental Bicycles</a></li>
+            <li><a href="booknow.html">Book Now</a></li>
+            <li><a href="contactUs.html">Contact us</a></li>
+        </ul>
+
+        <!--test colapsed menu -->
+        <div class="colapsedmenu">
+            <form action="images/FAQ.jpeg" method="GET"><input type="button" name="MyButton" value="menu"></form>
+        </div>
+        <!--test colapsed menu -->
+    </div>
+</div>
+<div class="bannerimage">
+    <img src="images/checkout.jpeg" alt="">
+</div>
+
+
+<div class="content">
+    <div style="max-width: 1600px;
+            width: 90%;
+            height: auto; margin: 0 auto;">
+        <div>
+            <h1>Checkout</h1>
+        </div>
+        <div style="text-align: center;">
+            <div><h2>confirm your details</h2></div>
+            <div style="width: 300px; height: 300px; background: rgba(245, 245, 245, 0.514); margin: 0 auto; border-radius: 5px;">
+                <div style="padding: 50px;" class="checkout" id="details" style="text-align: left; display: inline-block;">
+                </div>
+            </div>
+            <form onsubmit="return ClickMessagesubmit()">
+                <input class="button" style="margin: 10px;" type="submit" value="Submit">
+            </form>
+            <a href="index.html">go Back</a>
+        </div>
+    </div>
+</div>
+
+
+<div class="footer">                 <!--footer div-->
+    <div class="innerfooter">
+        <div class="footerlinks">
+            <ul>
+                <li><a href="privacypolicy.html">Privacy policy</a></li>
+                <li><a href="contactUs.html">Contact us</a></li>
+                <li><a href="aboutUs.html">About us</a></li>
+                <li><a href="FAQ.html">FAQ</a></li>
+            </ul>
+        </div>
+        <div class="subscription">
+            <div>
+                <h2>subcribe to our newsletter</h2>
+                <p>Be the first to hear about news, evesnts and discounts</p>
+                <div class="subscriptionbar">
+                    <form onsubmit="return ClickMessage()">
+                        <input class="selectbox" type="email" placeholder="Your E-mail" required>
+                        <input class="button1" type="submit" name="MyButton" value="Subscribe">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="socialmedia">
+            <div class="social">
+                <h2>Follow Us</h2>
+                <div class="socialmediaicons">
+                    <a href="https://www.facebook.com/"><img src="images/Facebookiconwhite.png" alt="facebook Icon"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

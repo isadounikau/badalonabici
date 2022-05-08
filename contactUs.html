@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Urban Cycle Rentals</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="header">            <!--Header div-->
+    <div class="innerheader">
+        <ul class="navigationlinks">
+            <li><a href="index.html">Home</a></li>
+            <li style="border-bottom: 5px solid hsl(31, 100%, 55%)"><a href="contactUs.html">Contact us</a></li>
+        </ul>
+
+        <!--test colapsed menu -->
+        <div class="colapsedmenu">
+            <form action="images/FAQ.jpeg" method="GET"><input type="button" name="MyButton" value="menu"></form>
+        </div>
+        <!--test colapsed menu -->
+    </div>
+</div>
+<div class="bannerimage">
+    <img src="images/contactus.jpeg" alt="">
+</div>
+
+
+<div class="content">           <!--Content div-->
+    <div class="innercontent">
+        <div class="heading">
+            <h1>Contact Us</h1>
+        </div>
+        <div class="topcontentcontactus">         <!--Top content -->
+            <div class="leftside">
+                <div class="heading"><h1>Our Address</h1></div>
+                <div class="address">
+                    <ul>
+                        <!--                        <li>main shop adress: <br>Montfichet Rd, London E15 2JE</li>-->
+                        <li>number: +447837647289</li>
+                        <li>E-mail: <a href="sendmailto:urbancyclerentals@gmail.com">badalonabici@gmail.com</a></li>
+                        <li>Opening hours:</li>
+                        <li>Monday to Sunday: 09:00 to 18h00</li>
+                    </ul>
+                </div>
+                <!--                <div style="margin: 15px;">-->
+                <!--                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1473.4415976569774!2d-0.009357073458636863!3d51.539155592429545!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761d66fa6881e1%3A0x541e35b0dfc132b7!2sMontfichet%20Rd%2C%20London%20E15%202JE!5e1!3m2!1sen!2suk!4v1617799754923!5m2!1sen!2suk"-->
+                <!--                            width="552" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>-->
+                <!--                </div>-->
+            </div>
+
+
+            <div class="rightside">
+                <div class="heading"><h1>Please Leave Feedback</h1></div>
+                <div class="form">
+                    <form onsubmit="return ClickMessageFeedback()">     <!--contact form-->
+                        <div>
+                            <label for="name">Name*:</label>
+                            <input class="selectbox" type="text" name="Name" id="name" required>
+
+                        </div>
+                        <div>
+                            <label for="email">Email*:</label>
+                            <input class="selectbox" type="email" name="Email" id="email" required>
+                        </div>
+                        <div>
+                            <label for="Phone">Phone:</label>
+                            <input class="selectbox" type="tel" name="Phone" id="Phone" placeholder="Optional">
+                        </div>
+                        <div>
+                            <label for="textarea">Message*:</label>
+                            <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="Please enter your message"
+                                      style="display: flex; align-items: center;" required></textarea>
+                        </div>
+                        <div>
+                            <input class="button" type="submit" value="Send">
+                            <input class="button" type="reset">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--<div class="footer">                 &lt;!&ndash;footer div&ndash;&gt;-->
+<!--    <div class="innerfooter">-->
+<!--        <div class="footerlinks">-->
+<!--            <ul>-->
+<!--                <li><a href="privacypolicy.html">Privacy policy</a></li>-->
+<!--                <li><a href="contactUs.html">Contact us</a></li>-->
+<!--                <li><a href="aboutUs.html">About us</a></li>-->
+<!--                <li><a href="FAQ.html">FAQ</a></li>-->
+<!--            </ul>-->
+<!--        </div>-->
+<!--        <div class="subscription">-->
+<!--            <div>-->
+<!--                <h2>subcribe to our newsletter</h2>-->
+<!--                <p>Be the first to hear about news, evesnts and discounts</p>-->
+<!--                <div class="subscriptionbar">-->
+<!--                    <form onsubmit="return ClickMessage()">-->
+<!--                        <input class="selectbox" type="email" placeholder="Your E-mail" required>-->
+<!--                        <input class="button1" type="submit" name="MyButton" value="Subscribe">-->
+<!--                    </form>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="socialmedia">-->
+<!--            <div class="social">-->
+<!--                <h2>Follow Us</h2>-->
+<!--                <div class="socialmediaicons">-->
+<!--                    <a href="https://www.facebook.com/"><img src="images/Facebookiconwhite.png" alt="facebook Icon"></a>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
+<script src="script.js"></script>
+</body>
+</html>

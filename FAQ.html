@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Urban Cycle Rentals</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="header">            <!--Header div-->
+    <div class="innerheader">
+        <div class="logo">
+            <a href="index.html"><img src="images/UrbanCycleRentalsLogo.png" alt="Urban Cycle Rentals Logo"></a>
+        </div>
+        <ul class="navigationlinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="rentalbicycles.html">Rental Bicycles</a></li>
+            <li><a href="booknow.html">Book Now</a></li>
+            <li><a href="contactUs.html">Contact us</a></li>
+        </ul>
+
+        <!--test colapsed menu -->
+        <div class="colapsedmenu">
+            <form action="images/FAQ.jpeg" method="GET"><input type="button" name="MyButton" value="menu"></form>
+        </div>
+        <!--test colapsed menu -->
+    </div>
+</div>
+<div class="bannerimage">
+    <img src="images/FAQ.jpeg" alt="">
+</div>
+
+
+<div class="content">           <!--Content div-->
+    <div class="innercontent">
+        <div class="heading">
+            <div><h1>FAQ</h1></div>
+        </div>
+        <div class="FAQcontent">
+            <div class="leftside" style="width: 400px; padding: 100px;">
+                <div class="heading"><h1>Questions</h1></div>
+                <div class="address">
+
+                    <ul>  <!--Use nested list for questions -->
+                        <li>- How can i Cancel my booking?
+                            <ul style="padding-left: 40px;">
+                                <li>For any cancelations just call our main office +447837647289 Monday to Sunday 9:00 to 17:00</li>
+                            </ul>
+                        </li>
+                        <li>- What are your opening times?
+                            <ul style="padding-left: 40px;">
+                                <li>We are open 6 days a week: <br>
+                                    Monday to Friday: 09:00 to 18h00 <br>
+                                    Saturday: 10:00 to 17:00 <br>
+                                    Sunday: Closed <br>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>- How much does it cost to rent a bicycle?
+                            <ul style="padding-left: 40px;">
+                                <li>The price will depend on the type of bicycle and the duration for more information click <a href="booknow.html">here</a>.
+                                </li>
+                            </ul>
+                        </li>
+                        <li>- Do you provide safety equipment?
+                            <ul style="padding-left: 40px;">
+                                <li>We have safety equipment available every rental comes with a helmet included in the price any other equipment will
+                                    be at extra cost.
+                                </li>
+
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="rightside">
+                <div class="heading"><h1>Answer not found?</h1></div>
+                <div class="form">
+                    <form onsubmit="return ClickMessageFAQ()">
+                        <div>
+                            <label for="name">Name*:</label>
+                            <input class="selectbox" type="text" name="Name" id="name" required>
+
+                        </div>
+                        <div>
+                            <label for="email">Email*:</label>
+                            <input class="selectbox" type="email" name="Email" id="email" required>
+                        </div>
+                        <div>
+                            <label for="Address">Address*:</label>
+                            <input class="selectbox" type="text" name="Address" id="Address" required>
+                        </div>
+                        <div>
+                            <label for="Phone">Phone:</label>
+                            <input class="selectbox" type="tel" name="Phone" id="Phone" placeholder="Optional">
+                        </div>
+                        <div>
+                            <label for="textarea">Message*:</label>
+                            <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="Please enter your message"
+                                      style="display: flex; align-items: center;" required></textarea>
+                        </div>
+                        <div>
+                            <input class="button" type="submit" value="Send">
+                            <input class="button" type="reset">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="footer">                 <!--footer div-->
+    <div class="innerfooter">
+        <div class="footerlinks">
+            <ul>
+                <li><a href="privacypolicy.html">Privacy policy</a></li>
+                <li><a href="contactUs.html">Contact us</a></li>
+                <li><a href="aboutUs.html">About us</a></li>
+                <li><a href="FAQ.html">FAQ</a></li>
+            </ul>
+        </div>
+        <div class="subscription">
+            <div>
+                <h2>subcribe to our newsletter</h2>
+                <p>Be the first to hear about news, evesnts and discounts</p>
+                <div class="subscriptionbar">
+                    <form onsubmit="return ClickMessage()">
+                        <input class="selectbox" type="email" placeholder="Your E-mail" required>
+                        <input class="button1" type="submit" name="MyButton" value="Subscribe">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="socialmedia">
+            <div class="social">
+                <h2>Follow Us</h2>
+                <div class="socialmediaicons">
+                    <a href="https://www.facebook.com/"><img src="images/Facebookiconwhite.png" alt="facebook Icon"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
+
+
+

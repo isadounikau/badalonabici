@@ -1,0 +1,96 @@
+* {
+    /*Remove default styles for all elements*/
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* Content Style book now*/
+
+.content {
+    text-align: center;
+    margin: 0 auto;
+    background: linear-gradient(
+            -45deg,
+            hsl(31, 100%, 85%),
+            hsl(182, 25%, 80%),
+            hsl(31, 100%, 85%)
+    );
+    width: 100%;
+}
+
+.table {
+    display: inline-block;
+}
+
+.booknowcontent {
+    width: 100%;
+    background: transparent;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+/*table style*/
+
+.stickyth {
+    position: sticky;
+    top: 100px;
+    margin-top: 25px;
+}
+
+.tableContent {
+    width: 700px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.616);
+    border-radius: 5px;
+}
+
+.tableContent thead tr {
+    background-color: hsl(31, 100%, 55%);
+    color: white;
+    text-align: left;
+}
+
+.tableContent th,
+.tableContent td {
+    padding: 12px 15px;
+}
+
+.tableContent tbody tr {
+    border-bottom: 2px solid lightgray;
+}
+
+.tableContent tbody td {
+    border-right: 2px solid lightgray;
+}
+
+/*nested table*/
+.tableContent tbody td table td {
+    border-right: white;
+}
+
+.tableContent tbody tr {
+    border-bottom: 2px solid hsl(31, 100%, 55%);
+}
+
+.tableContent tbody :hover {
+    background-color: hsl(31, 100%, 70%);
+}
+
+.tableContent tbody tr td img {
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+}
+
+/*Form Styling */
+
+.form form div {
+    margin: 15px;
+}
+
+.selectbox {
+    width: 200px;
+    height: 30px;
+}
